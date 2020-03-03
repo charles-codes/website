@@ -14,13 +14,174 @@ body {
   padding: 1px;
 }
 
-.container {
+.jumbotron {
   height: 125px;
   border-bottom: solid black 5px;
   width: auto;
   background-color: white;
   outline-color: black;
   margin-bottom: 25px;
+}
+
+.container_1 {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+}
+
+.ed_items {
+  border: solid black 1px;
+  border-radius: .5rem;
+  margin: 15px;
+  padding: 5px;
+}
+
+#ed_item_1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#ed_item_2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#ed_item_3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#ed_item_4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.container_3 {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 5;
+}
+
+#p_item_1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#p_item_2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#p_item_3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#p_item_4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#p_item_5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#p_item_6 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+#p_item_7 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#p_item_8 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.portfolio_items {
+  border: solid black 1px;
+  border-radius: .5rem;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.job_items {
+  border: solid black 1px;
+  border-radius: .5rem;
+  margin: 15px;
+  padding: 5px;
+  /* text-align: center; */
+}
+
+.container_2 {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 7;
+}
+
+#job_item_1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#job_item_2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#job_item_3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#job_item_4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+#job_item_5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#job_item_6 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+#job_item_7 {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#job_item_8 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+#job_item_9 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+#job_item_10 {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+#job_item_11 {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+#job_item_12 {
+  grid-column: 1;
+  grid-row: 7;
 }
 
 header {
@@ -123,4 +284,5 @@ h2 {
 .portfolio_pics {
   width: 300px;
   height: 200px;
+  padding: 5px;
 }
