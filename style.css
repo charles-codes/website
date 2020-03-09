@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(255, 0, 0, 0.4);
+  /* background-color: rgba(255, 0, 0, 0.4); */
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.4), white);
 }
 
 #headshot {
@@ -192,6 +193,8 @@ body {
 #job_item_12 {
   grid-column: 1;
   grid-row: 7;
+  margin-bottom: 25px;
+  margin-left: 15px;
 }
 
 header {
