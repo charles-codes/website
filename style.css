@@ -32,7 +32,7 @@ body {
 
 .ed_items {
   border: solid black 1px;
-  border-radius: .5rem;
+  border-radius: 1rem 1rem 1rem 0;
   margin: 15px;
   padding: 5px;
   background-color: white;
@@ -111,7 +111,7 @@ body {
 
 .portfolio_items {
   border: solid black 1px;
-  border-radius: .5rem;
+  border-radius: 1rem 1rem 1rem 0;
   margin: 15px;
   padding: 5px;
   text-align: center;
@@ -120,7 +120,7 @@ body {
 
 .job_items {
   border: solid black 1px;
-  border-radius: .5rem;
+  border-radius: 1rem 1rem 1rem 0;
   margin: 15px;
   padding: 5px;
   background-color: white;
