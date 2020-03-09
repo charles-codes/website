@@ -39,6 +39,10 @@ body {
   box-shadow: 4px 4px;
 }
 
+.ed_items:hover {
+  transform: scale(1.03);
+}
+
 #ed_item_1 {
   grid-column: 1;
   grid-row: 1;
@@ -120,6 +124,10 @@ body {
   box-shadow: 4px 4px;
 }
 
+.portfolio_items:hover {
+  transform: scale(1.03);
+}
+
 .job_items {
   border: solid black 1px;
   border-radius: 1rem 3rem 1rem 3rem;
@@ -127,6 +135,10 @@ body {
   padding: 5px;
   background-color: white;
   box-shadow: 4px 4px;
+}
+
+.job_items:hover {
+  transform: scale(1.03);
 }
 
 .container_2 {
@@ -202,6 +214,7 @@ header {
   font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
   padding: 10px;
+  padding-top: 20px;
 }
 
 #hi {
@@ -220,6 +233,10 @@ header {
 #bio {
   border-bottom: dotted black 5px;
   padding-bottom: 20px;
+}
+
+#bio_text {
+  padding-left: 20px;
 }
 
 #resume {
@@ -266,6 +283,8 @@ li a:hover {
   background-color: black;
   padding: 7px;
   font-size: 22px;
+  transition: 0.75s;
+  /* transform: scale(3, 3); */
 }
 
 li {
